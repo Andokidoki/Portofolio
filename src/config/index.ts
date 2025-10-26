@@ -6,19 +6,18 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/Andoko-small.jpg",//nanti ganti ke foto pribadi
+  siteLogo: "/Andoko-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Email", href: "andokowijaya1@gmail.com" },
+    // { text: "Email", href: "andoko.wijaya@binus.ac.id" },
     { text: "LinkedIn", href: "https://www.linkedin.com/in/andoko-wijaya/" },
     { text: "Github", href: "https://github.com/Andokidoki" },
     { text: "Instagram", href: "https://www.instagram.com/andoko_wijaya/" },
   ],
-  // socialImage: "/zen-og.png",
   canonicalURL: "https://andokowijaya.vercel.app",
 };
 
@@ -68,9 +67,9 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "FitPlate",
       summary: "A web-based health application that helps users maintain a healthy lifestyle by simplifying calorie tracking and promoting balanced nutrition through an intuitive and user-friendly interface.",
-      linkPreview: "/",
+      linkPreview: "https://drive.google.com/drive/folders/1-NE8S8TNc7R6nWHxQBybveARQAfA9bub?usp=drive_link",
       linkSource: "https://github.com/Andokidoki/FitPlate_project",
-      image: "/fitplate1.png",
+      image: "/fitplate.png",
     },
     {
       name: "BINUSMAYA 2.0",
@@ -82,7 +81,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "LyriGist",
       summary: "a machine learning-based system that classifies music genres using audio feature data and a Support Vector Machine (SVM) model to accurately identify songs based on their unique sound characteristics.",
-      linkPreview: "/",
+      linkPreview: "https://drive.google.com/drive/folders/1oG0f69w7rVFvoTemWvJXcmycHpMiUMsE?usp=drive_link",
       linkSource: "https://github.com/Andokidoki/LyriGist-AI",
       image: "/lyrigist1.png",
     },
