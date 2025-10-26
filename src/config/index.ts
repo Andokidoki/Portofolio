@@ -1,97 +1,97 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Andoko Wijaya - AI and IoT Enthusiast",
+  author: "Andoko Wijaya",
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/Andoko-small.jpg",//nanti ganti ke foto pribadi
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Email", href: "andokowijaya1@gmail.com" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/andoko-wijaya/" },
+    { text: "Github", href: "https://github.com/Andokidoki" },
+    { text: "Instagram", href: "https://www.instagram.com/andoko_wijaya/" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  // socialImage: "/zen-og.png",
+  canonicalURL: "https://andokowijaya.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Andoko Wijaya",
+    specialty: "Artificial Intelligence and Internet of Things Enthusiast",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Aspire to become a person who inspires others to grow, lead, and create meaningful impact through technology.",
+    email: "andokowijaya1@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "HIMTI",
+      position: "Chairman",
+      startDate: "Mar 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Serving as the highest leader of HIMTI, overseeing 7 regional branches and managing nearly 400 active members.",
+        "Launched an internal monitoring system for performance evaluation and inter-division communication.",
+        "Successfully increased activist count by 12% compared to the previous year.",
+        "Supervised the execution of all HIMTI events, ensuring smooth coordination across divisions and committees."
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Golden Game City",
+      position: "Assistant Manager",
+      startDate: "Feb 2023",
+      endDate: "Jul 2023",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Processed 150+ transactions per shift with 98% accuracy rate.",
+        "Recognized by management for consistently maintaining professionalism and positive customer interactions.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "HolyFox",
+      position: "Accountant",
+      startDate: "Aug 2022",
+      endDate: "Mar 2023",
+      summary:[
+        "Processed 150+ transactions per shift with 100% accuracy rate.",
+        "Maintained accurate financial records across 3+ events, ensuring zero discrepancies in reporting.",
+      ]
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "FitPlate",
+      summary: "A web-based health application that helps users maintain a healthy lifestyle by simplifying calorie tracking and promoting balanced nutrition through an intuitive and user-friendly interface.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/Andokidoki/FitPlate_project",
+      image: "/fitplate1.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "BINUSMAYA 2.0",
+      summary: "A redesigned version of Binusmaya aimed at improving the student experience by reducing loading times, simplifying navigation, and enhancing accessibility.",
+      linkPreview: "https://stynw7.github.io/Binusmaya2.0/schedule.html",
+      linkSource: "https://github.com/Andokidoki/Binusmaya2.0",
+      image: "/binusmaya1.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "LyriGist",
+      summary: "a machine learning-based system that classifies music genres using audio feature data and a Support Vector Machine (SVM) model to accurately identify songs based on their unique sound characteristics.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "https://github.com/Andokidoki/LyriGist-AI",
+      image: "/lyrigist1.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hi, I'm a 5th-semester Computer Science undergraduate at BINUS University, specializing in Artificial Intelligence. I am passionate about exploring how intelligent systems can be applied to solve real-world problems and improve lives. Currently serving as the Chairman of HIMTI, I combine my technical interests with leadership to foster growth, collaboration, and innovation within the student community. I aspire to become an individual who not only contributes to the advancement of AI but also inspires others to pursue their passions and create meaningful impact through technology.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/Andoko-big2.png",
   },
 };
 
